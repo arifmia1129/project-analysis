@@ -40,13 +40,15 @@ const Home = () => {
             <div className='my-10'>
                 <h3 className='text-3xl text-center font-bold text-blue-900'>Customer Reviews</h3>
 
-                <div className='grid grid-cols-3 my-5'>
-                    {
-                        reviews.slice(0, 3).map(review => <Review
-                            key={review.review}
-                            review={review}
-                        ></Review>)
-                    }
+                <div>
+                    <div className='grid grid-cols-3 my-5'>
+                        {
+                            reviews.slice(0, 3).map(review => <Review
+                                key={review.review}
+                                review={review}
+                            ></Review>)
+                        }
+                    </div>
                 </div>
             </div>
         </div>
