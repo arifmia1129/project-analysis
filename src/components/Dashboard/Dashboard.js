@@ -10,7 +10,7 @@ const Dashboard = () => {
     }, [])
 
     return (
-        <div className='mx-20 grid grid-cols-2'>
+        <div className='mx-20 grid grid-cols-2 my-10'>
             <div>
                 <h3 className='text-purple-600 text-xl ml-20 mb-5 font-bold'>Month Wise Sell</h3>
                 <LineChart

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blogs = () => {
     return (
-        <div className='mx-20 grid grid-cols-3'>
+        <div className='mx-20 grid grid-cols-3 my-10'>
             <div className='border-4 border-red-400 rounded-lg p-5 m-5'>
                 <h3 className='text-xl font-bold'>প্রশ্ন-1: Context Api কি?</h3>
                 <br />

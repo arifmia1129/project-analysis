@@ -1,6 +1,8 @@
 # Product Analyst Company
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live site available now [Project Analyst](https://project-analyst-react-project.netlify.app/).
+
+https://project-analyst-react-project.netlify.app/
 
 ## Website all task review :
 
