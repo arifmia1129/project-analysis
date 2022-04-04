@@ -1,6 +1,9 @@
 import React from 'react';
+import useReviews from '../../hooks/useReviews';
+import Review from '../Review/Review';
 
 const Home = () => {
+    const [reviews, setReviews] = useReviews();
     return (
         <div className='mt-10 mx-20'>
             <div className='pb-20'>
@@ -37,8 +40,13 @@ const Home = () => {
             <div className='my-10'>
                 <h3 className='text-3xl text-center font-bold text-blue-900'>Customer Reviews</h3>
 
-                <div>
-
+                <div className='grid grid-cols-3 my-5'>
+                    {
+                        reviews.slice(0, 3).map(review => <Review
+                            key={review.review}
+                            review={review}
+                        ></Review>)
+                    }
                 </div>
             </div>
         </div>
