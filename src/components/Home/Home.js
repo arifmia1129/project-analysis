@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import useReviews from '../../hooks/useReviews';
 import Review from '../Review/Review';
 
@@ -49,6 +50,7 @@ const Home = () => {
                             ></Review>)
                         }
                     </div>
+                    <Link to="/reviews" className='flex justify-center items-center font-bold bg-blue-700 mx-[500px] p-3 text-white rounded-lg'>See all review</Link>
                 </div>
             </div>
         </div>
