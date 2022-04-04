@@ -2,8 +2,8 @@ import React from 'react';
 
 const NotFound = () => {
     return (
-        <div>
-            
+        <div className='mx-20'>
+            <img className='object-cover w-full rounded-lg' src="404-page-error.png" alt="" />
         </div>
     );
 };
